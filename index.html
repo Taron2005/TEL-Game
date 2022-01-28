@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alias</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="menu active">
+      <h1 class="logo">Alias</h1>
+      <button>Սկսել</button>
+    </section>
+    <section class="options">
+      <div class="mode">
+        <h3>Ռեժիմ</h3>
+        <div>
+          <p class="p1 active">Կլասիկ</p>
+          <p class="p2">Արկադային</p>
+        </div>
+      </div>
+      <div class="time__point">
+        <div>
+          <h3>Միավոր</h3>
+          <h3>Ժամանակ</h3>
+        </div>
+        <div>
+          <div>
+            <span class="point__minus">-</span>
+            <p class="point">100</p>
+            <span class="point__plus">+</span>
+          </div>
+          <div>
+            <span class="time__minus">-</span>
+            <p class="time">60</p>
+            <span class="time__plus">+</span>
+          </div>
+        </div>
+      </div>
+      <div class="teams">
+        <input type="text" id="team1" placeholder="Թիմ 1" />
+        <input type="text" id="team2" placeholder="Թիմ 2" />
+      </div>
+      <button id="option__btn">Հաջորդը</button>
+    </section>
+    <section class="game__bar">
+      <button id="go__back">Հետ Գնալ</button>
+      <h3 id="turn"></h3>
+      <h4>Ռաունդ <span>1</span></h4>
+      <div id="team1__information">
+        <h3></h3>
+        <span>0</span>
+      </div>
+      <div id="team2__information">
+        <h3></h3>
+        <span>0</span>
+      </div>
+      <button id="start__game">Սկսել</button>
+    </section>
+    <section class="the__game">
+      <span></span>
+      <div class="word"></div>
+      <div class="word"></div>
+      <div class="word"></div>
+      <div class="word"></div>
+      <div class="word"></div>
+      <button>Հետ գնալ</button>
+    </section>
+    <script src="js/game.js"></script>
+  </body>
+</html>
